@@ -128,7 +128,7 @@ salesByWeek.forEach(sales => {
         outputElement.innerHTML += `<p>${keyValuearray[0]}: ${keyValuearray[1]}</p>`
     }
     outputElement.innerHTML += `<h3>Profit: $${carProfit}</h3>`
-    outputElement.innerHTML += `<hr/>`
+    outputElement.innerHTML += "<hr/>"
 })
 
 
@@ -138,20 +138,19 @@ salesByWeek.forEach(sales => {
 //     outputElement.innerHTML += `<p>${salesByWeek[i].sales_agent.first_name} ${salesByWeek[i].sales_agent.last_name}</p>`
 //     outputElement.innerHTML += `<hr>`
 
-//     // const salesArray = Object.entries(salesByWeek[i])
-//     // console.log("sales array", salesArray)
-//     // debugger
+//     const salesArray = Object.entries(salesByWeek[i])
+//     console.log("sales array", salesArray)
+//     debugger
 //     const vehicleArray = Object.entries(salesByWeek[i].vehicle)
 //     console.log("vehicle array", vehicleArray)
 
 //     for (const keyValueArray of vehicleArray) {
 //         outputElement.innerHTML += `<p>${keyValueArray[0]} : ${keyValueArray[1]}</p>`
 //     }
-
-//     // const arrayOfCars = Object.entries(salesByWeek)
-//     // const 
-//     // salesByWeek.forEach(entries => {
-//     //     for (const keyValueArray of Object.entries(salesByWeek))
-//     //     console.log(keyValueArray)
-//     //     outputElement.innerHTML += `<p>${entries}</p>`
+//     const arrayOfCars = Object.entries(salesByWeek)
+//     const
+//     salesByWeek.forEach(entries => {
+//         for (const keyValueArray of Object.entries(salesByWeek))
+//         console.log(keyValueArray)
+//         outputElement.innerHTML += `<p>${entries}</p>`
 // }
